@@ -14,7 +14,7 @@ class_list = read_data("students.csv")
 submissions = read_data("submissions.csv")
 git_names = read_data("submissions.csv")
 
-# Create a mapping from Imperial usernames to GitHub names.
+# Create a mapping from Imperial usernames to GitHub names.≠
 name_map = {imperial: git
             for imperial, git in zip(git_names["ImperialID", "GitHubID"])}
 
